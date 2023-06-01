@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "wpp_bar_code_reader",
-    "slug": "wpp_bar_code_reader",
+    "name": "Leitor WTC Interno",
+    "slug": "Leitor_WTC_Interno",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cks12.Leitor_WTC_Interno"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2afe9bc0-a21d-427f-8e78-87b7727bbde4"
+      }
     }
   }
 }
